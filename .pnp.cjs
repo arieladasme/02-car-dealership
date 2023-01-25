@@ -38,6 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/jest", "npm:29.2.4"],\
             ["@types/node", "npm:18.11.18"],\
             ["@types/supertest", "npm:2.0.12"],\
+            ["@types/uuid", "npm:9.0.0"],\
             ["@typescript-eslint/eslint-plugin", "virtual:80b2d343000b484ec3df96c063ce27cad26ee0dfef18c7847569424d529fc87443c308822eb2d185c6814c8cb4d82e77b8a36d36399ac340a80f75d96c18205f#npm:5.48.2"],\
             ["@typescript-eslint/parser", "virtual:80b2d343000b484ec3df96c063ce27cad26ee0dfef18c7847569424d529fc87443c308822eb2d185c6814c8cb4d82e77b8a36d36399ac340a80f75d96c18205f#npm:5.48.2"],\
             ["eslint", "npm:8.32.0"],\
@@ -53,7 +54,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ts-loader", "virtual:80b2d343000b484ec3df96c063ce27cad26ee0dfef18c7847569424d529fc87443c308822eb2d185c6814c8cb4d82e77b8a36d36399ac340a80f75d96c18205f#npm:9.4.2"],\
             ["ts-node", "virtual:80b2d343000b484ec3df96c063ce27cad26ee0dfef18c7847569424d529fc87443c308822eb2d185c6814c8cb4d82e77b8a36d36399ac340a80f75d96c18205f#npm:10.9.1"],\
             ["tsconfig-paths", "npm:4.1.1"],\
-            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"],\
+            ["uuid", "npm:9.0.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -2006,6 +2008,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@types/uuid", [\
+        ["npm:9.0.0", {\
+          "packageLocation": "./.yarn/cache/@types-uuid-npm-9.0.0-979023c16f-59ae56d954.zip/node_modules/@types/uuid/",\
+          "packageDependencies": [\
+            ["@types/uuid", "npm:9.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@types/yargs", [\
         ["npm:17.0.20", {\
           "packageLocation": "./.yarn/cache/@types-yargs-npm-17.0.20-a48364a46f-dc2edbb0e4.zip/node_modules/@types/yargs/",\
@@ -3146,6 +3157,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/jest", "npm:29.2.4"],\
             ["@types/node", "npm:18.11.18"],\
             ["@types/supertest", "npm:2.0.12"],\
+            ["@types/uuid", "npm:9.0.0"],\
             ["@typescript-eslint/eslint-plugin", "virtual:80b2d343000b484ec3df96c063ce27cad26ee0dfef18c7847569424d529fc87443c308822eb2d185c6814c8cb4d82e77b8a36d36399ac340a80f75d96c18205f#npm:5.48.2"],\
             ["@typescript-eslint/parser", "virtual:80b2d343000b484ec3df96c063ce27cad26ee0dfef18c7847569424d529fc87443c308822eb2d185c6814c8cb4d82e77b8a36d36399ac340a80f75d96c18205f#npm:5.48.2"],\
             ["eslint", "npm:8.32.0"],\
@@ -3161,7 +3173,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ts-loader", "virtual:80b2d343000b484ec3df96c063ce27cad26ee0dfef18c7847569424d529fc87443c308822eb2d185c6814c8cb4d82e77b8a36d36399ac340a80f75d96c18205f#npm:9.4.2"],\
             ["ts-node", "virtual:80b2d343000b484ec3df96c063ce27cad26ee0dfef18c7847569424d529fc87443c308822eb2d185c6814c8cb4d82e77b8a36d36399ac340a80f75d96c18205f#npm:10.9.1"],\
             ["tsconfig-paths", "npm:4.1.1"],\
-            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"],\
+            ["uuid", "npm:9.0.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
